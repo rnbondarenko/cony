@@ -4,8 +4,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/assembla/cony"
-	"github.com/streadway/amqp"
+	amqp "github.com/rabbitmq/amqp091-go"
+	"github.com/rnbondarenko/cony"
 	"time"
 )
 
